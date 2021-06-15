@@ -1,0 +1,11 @@
+/*
+ * Add this stylesheet after the style.css to any HTML included with this template
+ * to enable wood background and shadow
+ */
+body {
+	background: url(../images/bg-wood.jpg);
+}
+
+#wrapper-shadow {
+	background: url(../images/shadow.png) repeat-y;
+}

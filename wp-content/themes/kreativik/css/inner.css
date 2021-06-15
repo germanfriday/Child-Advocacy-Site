@@ -1,0 +1,401 @@
+
+#page-heading h2 {
+    font-size: 24px;
+    padding: 25px 0px;
+    font-weight: bold;
+    float: left;
+}
+
+#page-heading {
+    border-bottom: 1px solid #e7e7e7;
+    margin-left: 40px;
+    width: 940px;
+}
+
+#page-heading a {
+	color: #242424;
+    font-weight: bold;
+}
+
+#sub {
+    float: right;
+    margin-top: 25px;
+}
+
+#sub li {
+    float: left;
+}
+#sub li a {
+    font-size: 18px;
+    color: #5b5b5b;
+    text-decoration: none;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+#sub li a:hover {
+    color: #242424;
+}
+.maincontent {
+	width: 610px;
+	padding-right: 30px;
+	float: left;
+}
+
+.maincontent img, #content img {
+    padding: 5px;
+    border: 1px solid #e7e7e7;
+    margin: 20px 0px;
+}
+
+.maincontent p {
+    margin-bottom: 20px;
+}
+
+.maincontent ul {
+    list-style: square;
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+.maincontent ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+.maincontent h3, #content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.maincontent h4, #sidebar h4, #content h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.maincontent h5, #content h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.maincontent h6, #content h6 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#content.full .maincontent {
+	width: 100%;
+}
+
+#sidebar {
+    float: left;
+    width: 299px;
+    padding-top: 35px;
+    border-left: 1px solid #e7e7e7;
+
+}
+
+#sidebar img {
+	margin: 0px;
+	padding: 3px;
+	border: 0;
+}
+#sidebar form, #sidebar input {
+	border: 0;
+}
+
+/*#sidebar img:hover {
+	border-color: #cccccc;
+}*/
+
+.sidebar-element {
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    padding-left: 30px;
+
+}
+
+#wrapper .sidebar-element h4{
+    margin-bottom: 10px;
+}
+
+.sidebar-element ul li a{
+    display: block;
+    padding: 10px 3px;
+    background-color: white;
+    border-top: 1px solid #e7e7e7;
+    text-decoration: none;
+    color: #242424;
+}
+
+.sidebar-element ul li a:hover {
+    background-color: #f3f3f3;
+    text-decoration: underline;
+}
+.add {
+    width: 125px;
+    height: 125px;
+    padding: 3px;
+    border: 1px solid #e7e7e7;
+    float: left;
+}
+
+.blog-post img{
+    margin-top: 0px;
+    width: 610px;
+    margin: 20px 0px;
+}
+
+.blog-post {
+    border-bottom: 1px dotted #e7e7e7;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.blog-post h3 a {
+    color: #242424;
+    font-weight: bold;
+}
+
+a {
+    color: #0686b0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#portfolio img {
+	margin: 0px;
+	padding: 0px;
+}
+
+.portfolio:hover {
+	border: 1px solid #242424;
+}
+
+.portfolio {
+	display: block;
+	float: left;
+	width: 150px;
+	height: 150px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 16px;
+}
+
+.portfolio.first {
+	margin-left: 0px;
+}
+
+.portfolio.last {
+	margin-right: 0px;
+}
+
+/* Blog */
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+.divider-full {
+	width: 100%;
+	background-color: #e7e7e7;
+	height: 1px;
+	margin: 20px 0px;
+	overflow: hidden;
+}
+
+.comment {
+	margin-bottom: 25px;
+}
+
+.comment-date {
+	font-size: 11px;
+	color: #5b5b5b;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+.maincontent .comment p {
+	margin: 0px;
+}
+
+.maincontent {
+	padding-top: 35px;
+	padding-bottom: 8px;
+}
+
+#content img.avatar {
+	margin: 0px 20px 20px 0px;
+	float: left;
+}
+
+.maincontent .img-left {
+	margin-left: 0px;
+	margin-right: 20px;
+	float: left;
+}
+
+#content .img-left {
+	margin-left: 0px;
+	margin-right: 20px;
+	float: left;
+	margin-top: 0px;
+}
+
+#content .img-right {
+	margin: 0px 0px 0px 20px;
+	float: right;
+}
+
+#add-comment label {
+	display: block;
+	float: left;
+	width: 150px;
+	height: 20px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+#add-comment div {
+	margin-top: 10px;
+}
+
+input, textarea {
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+
+#add-comment textarea {
+	width: 440px;
+}
+
+#add-comment .buttons {
+	margin-left: 160px;
+}
+
+#wp125adwrap_2c div.wp125ad {
+	padding: 0px 3px;
+	height: 132px;
+}
+
+#wp-calendar {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#wp-calendar thead {
+	font-weight: bold;
+	background-color: #e7e7e7;
+	padding: 5px;	
+}
+
+#wp-calendar thead tr th {
+	text-align: center;
+}
+
+#wp-calendar tbody tr td {
+	text-align: center;
+	background-color: #f5f5f5;
+	border: 1px solid #e7e7e7;
+}
+
+#wp-calendar caption {
+	margin-bottom: 10px;
+}
+
+#searchsubmit {
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#s {
+	width: 190px;
+}
+
+#content .blog-post h3 {
+	margin-bottom: 5px;
+}
+
+body #content .blog-post img {
+	margin: 0px 0px 10px 0px;
+}
+
+body #wrapper #content .maincontent .blog-post h3 a {
+	color: #242424;
+}
+
+#content .cform {
+	margin: 20px 0px;
+	padding: 0px;
+	text-align: left;
+	width: 610px;
+}
+
+.maincontent #portfolio {
+	margin-top: 0px;
+	padding-bottom: 25px;
+}
+
+#content .cform .sendbutton {
+	float: left;
+}
+
+#content .portfolio-entry {
+	width: 280px;
+	border: 1px dotted #ccc;
+}
+
+#content .portfolio-entry:hover {
+	border:1px dotted #ccc;
+	background-color: #f5f5f5;
+}
+
+#content .portfolio-entry  {
+	width: 280px;
+    height: 170px;
+    float: left;
+    background-color: f5f5f5;
+    padding: 3px 3px 8px 3px;
+    overflow: hidden;
+    margin: 10px 11px;
+}
+
+#content .portfolio-entry img {
+	width: 268px;
+	z-index: 0;
+	border: none;
+} 
+
+#content .portfolio-entry a {
+	display: block;
+	position: relative;
+	top: -127px;
+	height: 168px;
+	overflow: hidden;
+}
+
+#content .portfolio-entry .ribbon {
+	z-index: 999;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 3px;
+	left: 147px;
+	width: 128px;
+	height: 128px;
+}

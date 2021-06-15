@@ -1,0 +1,7 @@
+/*
+ * Add this stylesheet after the style.css to any HTML included with this template
+ * to enable bokeh background
+ */
+body {
+	background: url(../images/bg-vintage.jpg);
+}
